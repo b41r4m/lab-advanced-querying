@@ -132,4 +132,4 @@ limit: 10
 
 <!-- Your Code Goes Here -->
 
-query: {$and: [{founded_year:{$gt:2000, $lt: 2010}},{"acquisition.acquired_year":{gte:2011}}]}
+query: {$and: [{founded_year:{$gt:2000, $lt: 2010}},{"acquisition.acquired_year":{$gte:2011}}]}
